@@ -14,9 +14,13 @@ pytest-mock = "*"
 pytest-selenium = "*"
 
 [packages]
+delorean = "*"
 dynaconf = { extras = ["yaml"], version = "*" }
 gunicorn = "*"
 psycopg2-binary = "*"
+sentry-sdk = "*"
+whitenoise = "*"
+django = "*"
 
 [requires]
 python_version = "3.8"
